@@ -8,7 +8,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "activesupport"
 gem 'zeitwerk'
 
-gem 'rubocop'
+gem 'rubocop', '>= 1.66.0'
 gem 'rubocop-minitest'
 gem 'rubocop-performance'
 
